@@ -129,7 +129,7 @@
     FROM artist
     RIGHT JOIN album
     ON artist.artistid = album.artistid;
-
+    
 -- 7.4 CROSS
 -- Task – Create a cross join that joins album and artist and sorts by artist name in ascending order.
     SELECT *
